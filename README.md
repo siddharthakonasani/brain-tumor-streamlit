@@ -12,24 +12,17 @@ Brain_Tumor_MRI_Dataset/
 
 ├── train/
 
-
 │ ├── glioma/
-
 
 │ ├── meningioma/
 
-
 │ ├── no_tumor/
 
-
 │ └── pituitary/
-
  
 ├── valid/
 
-
 ├── test/
-
 
 └── Models/
 
@@ -90,15 +83,11 @@ Each subfolder contains labeled MRI scans. A total of over **2,400+** images wer
 BrainTumorClassifierApp/
 ├── app.py
 
-
 ├── custom_cnn_best.h5
-
 
 ├── requirements.txt
 
-
 ├── runtime.txt
-
 
 └── .streamlit/── config.toml
 
