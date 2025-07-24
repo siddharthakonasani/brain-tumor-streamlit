@@ -9,13 +9,21 @@ This project focuses on classifying brain MRI images into four categories — **
 The dataset is structured into training, validation, and test sets:
 
 Brain_Tumor_MRI_Dataset/
+
 ├── train/
+| |
 │ ├── glioma/
+| |
 │ ├── meningioma/
+| |
 │ ├── no_tumor/
+| |
 │ └── pituitary/
+| 
 ├── valid/
+|
 ├── test/
+|
 └── Models/
 
 
@@ -74,10 +82,15 @@ Each subfolder contains labeled MRI scans. A total of over **2,400+** images wer
 
 BrainTumorClassifierApp/
 ├── app.py
+|
 ├── custom_cnn_best.h5
+|
 ├── requirements.txt
+|
 ├── runtime.txt
+|
 └── .streamlit/
+
 └── config.toml
 
 
@@ -91,12 +104,14 @@ git clone https://github.com/your-username/brain-tumor-classifier.git
 cd brain-tumor-classifier
 ```
 2. **Install dependencies**
+```
    pip install -r requirements.txt
-
-3. **Run locally**
+```
+4. **Run locally**
+   ```
    streamlit run app.py
-   
-4. **Requirements**
+   ```
+5. **Requirements**
 * Python 3.10
 
 * TensorFlow 2.14.0
@@ -105,9 +120,12 @@ cd brain-tumor-classifier
 
 * Pillow, NumPy
 
- Author
+ Author:
+ 
 Siddhartha Ram Konasani
+
 mail: siddharthakonasani.77@gmail.com
+
 Brain Tumor MRI Classifier Project (2025)
 
 
